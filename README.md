@@ -1,0 +1,1 @@
+# geodesicdome_manual
