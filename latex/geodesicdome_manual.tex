@@ -1,0 +1,37 @@
+\documentclass[a4paper,12pt,draft]{article}
+
+\title{How to build a geodesic dome}
+\author{Andr\'{e} Franz}
+\date{}
+
+
+\begin{document}
+\maketitle
+
+\section{The basics}
+From Wikipedia:
+\begin{quote}
+A geodesic dome is a spherical or partial-spherical shell structure or lattice shell based on a network of great circles (geodesics) on the surface of a sphere. The geodesics intersect to form triangular elements that have local triangular rigidity and also distribute the stress across the structure. When completed to form a complete sphere, it is a geodesic sphere. [...]
+
+Typically a geodesic dome design begins with icosahedron inscribed in a hypothetical sphere, tiling each triangular face with smaller triangles, then projecting the vertices of each tile to the sphere. The endpoints of the links of the completed sphere are the projected endpoints on the sphere's surface. If this is done exactly, sub-triangle edge lengths take on many different values, requiring links of many sizes. [...]
+\end{quote}
+
+
+\begin{table}[ht]
+	\caption{Strut factors.}
+	\begin{tabular}{l|cccccc}
+strut	&	1V		& 2V		& 3V		& 4V		& 5V			& 6V		\\	\hline
+	A	& 1.05146	& 0.54653	& 0.34862	& 0.25318	& 0.19814743	& 0.1625672	\\
+	B	&			& 0.61803	& 0.40355	& 0.29524	& 0.23179025	& 0.1904769	\\
+	C	&			&			& 0.41241	& 0.29453	& 0.22568578	& 0.1819083	\\
+	D	&			&			&			& 0.31287	& 0.24724291	& 0.2028197	\\
+	E	&			&			&			& 0.32492	& 0.25516701	& 0.1873834	\\
+	F	&			&			&			& 0.29859	& 0.24508578	& 0.1980126	\\
+	G	&			&			&			&			& 0.26159810	& 0.2059077	\\
+	H	&			&			&			&			& 0.23159760	& 0.2153537	\\
+	I	&			&			&			&			& 0.24534642	& 0.2166282
+	\end{tabular}
+	\label{tab:strut_factors}
+\end{table}
+
+\end{document}
